@@ -20,21 +20,5 @@
 #     print(student["name"],student["house"],student["age"],sep=', ')
 
 
-def main():
-    spacecraft={"name":"James"}
-    spacecraft["distance"]=0.01
-
-    print(create_report(spacecraft))
-
-def create_report(spacecraft):
-    return f"""
-    ================Report==========
-
-    Name : {spacecraft.get("name","N/A")}
-    Distance : {spacecraft.get("distance","N/A")}
-
-    ================================
-    """
-
 
 
