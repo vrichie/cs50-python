@@ -1,6 +1,6 @@
-# students=["john","joe","Ron","Draco"]
-
-
+students=["john","joe","Ron","Draco"]
+lowercase_words = [name.lower() for name in students]
+print(lowercase_words)
 
 # for student in students:
     # print(student)
